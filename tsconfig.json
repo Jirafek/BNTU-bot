@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                       // Целевой стандарт JS
+    "module": "CommonJS",                  // Модульная система
+    "strict": true,                        // Включить строгую проверку типов
+    "esModuleInterop": true,               // Поддержка экспорта по умолчанию
+    "skipLibCheck": true,                  // Пропуск проверки библиотек
+    "outDir": "./dist",                    // Каталог сборки
+    "rootDir": "./src"                     // Корневая папка исходников
+  },
+  "include": ["src/**/*"],                 // Указать, что компилировать
+  "exclude": ["node_modules"]             // Исключить node_modules
+}
