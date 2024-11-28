@@ -8,7 +8,5 @@ services:
     env_file:
       - .env
     ports:
-      - "3001:3001"  # Пробрасываем порт 3000
-    volumes:
-      - .:/usr/src/app
+      - "3001:3001"  # Пробрасываем порт 3001
     command: npm start
